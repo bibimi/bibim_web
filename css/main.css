@@ -1,0 +1,154 @@
+/* COMMON */
+.body-container {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body__container {
+    background-color: #cda0eb;
+}
+
+/* HEADER영역 */
+header {
+
+}
+
+header .inner {
+    max-width:1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+header .bundle {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    display: block;
+    padding: 5px;
+    margin: 20px 40px;
+    font-size:24px;
+    font-weight: 500;
+    color: #FFF;
+}
+header .menu {
+    display:flex;
+    float: right;
+}
+
+header .menu li a {
+    display: block;
+    padding: 10px;
+    margin: 20px 40px;
+    color: #FFF;
+}
+
+header .menu li a:hover {
+    font-weight: 500;
+}
+
+section {
+    padding: 160px 0;
+}
+
+/* section .container {
+    position: absolute;
+} */
+section .player {
+    display: flex;
+    align-items: center;
+    margin : 0 auto;
+    max-width: 120px;
+
+}
+
+svg {
+    display:block;
+    align-content: center;
+}
+
+.music-info {
+    display: block;
+    margin: 10px;
+}
+
+section .inner {
+    display: flex;
+    align-imtem: center;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 20px;
+    position: relative;
+}
+.album-box {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    border-radius: 70% 70%;
+    overflow: hidden;
+    
+}
+
+.album-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .album-inner-line {
+    object-fit: contain;
+    width: 200px;
+    height:200px;
+    border: 2px solid rebeccapurple;
+    border-radius:100px;
+    background-color: white;
+    position: absolute;
+    top: 20;
+    left: 20;
+} */
+
+nav .outer {
+    padding
+    
+}
+
+nav .balloon {
+    position: relative;
+    width: 210px;
+    height: 120px;
+    padding: 0px;
+    background: #FFFFFF;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+nav .balloon:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 11px 0;
+    border-color: #FFFFFF transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -15px;
+    left: 42px;
+}
+
+
+
