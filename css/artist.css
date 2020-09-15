@@ -1,0 +1,131 @@
+/* COMMON */
+.body-container {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body__container {
+    
+}
+
+/* HEADER영역 */
+header {
+    background-color: #cda0eb;
+}
+
+header .inner {
+    max-width:1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+header .bundle {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    display: block;
+    padding: 5px;
+    margin: 20px 40px;
+    font-size:24px;
+    font-weight: 500;
+    color: #FFF;
+}
+header .menu {
+    display:flex;
+    float: right;
+}
+
+header .menu li a {
+    display: block;
+    padding: 10px;
+    margin: 20px 40px;
+    color: #FFF;
+}
+
+header .menu li a:hover {
+    font-weight: 500;
+}
+
+section {
+    background-color: #cda0eb;
+    padding: 60px;
+}
+
+.artist_info_box {
+    margin: 0 auto;
+    padding:0;
+    max-width: 1200px;
+}
+.artist_name {
+    font-size: 20px;
+    font-weight: 600;
+}
+.wrapper-clearfix {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    content: "";
+    display: block;
+    width:900px;
+    height: 400px;
+    flex-direction: column;
+    position: relative;
+}
+
+.artist_img_box {
+    float: left;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.artist_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artist_info {
+    float: left;
+    margin-left : 20px;
+    max-width: 400px;
+    
+}
+
+.artist_info dt {
+    clear : left;
+    float: left;
+    width: 90px;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+}
+
+.artist_info dd {
+    
+    width: 400px;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+}
+
+#artist_intro {
+    display: block;
+    clear: left;
+}

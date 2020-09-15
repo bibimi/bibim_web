@@ -1,0 +1,176 @@
+/* COMMON */
+.body-container {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body__container {
+    
+}
+
+/* HEADER영역 */
+header {
+    background-color: #cda0eb;
+}
+
+header .inner {
+    max-width:1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+header .bundle {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    content: "";
+    clear: both;
+    display: block;
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    display: block;
+    padding: 5px;
+    margin: 20px 40px;
+    font-size:24px;
+    font-weight: 500;
+    color: #FFF;
+}
+header .menu {
+    display:flex;
+    float: right;
+}
+
+header .menu li a {
+    display: block;
+    padding: 10px;
+    margin: 20px 40px;
+    color: #FFF;
+}
+
+header .menu li a:hover {
+    font-weight: 500;
+}
+
+section {
+    background-color: #cda0eb;
+    background-repeat: no-repeat;
+    padding: 160px 0;
+}
+
+/* section .container {
+    position: absolute;
+} */
+
+.music-box {
+    
+}
+
+
+.section-music {
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    
+}
+
+.music_all {
+    color: white;
+    font-size:30px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.music_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music_bundle {
+    margin: 20px;
+    
+    
+}
+
+.album_art {
+    width: 280px;
+    height: 280px;
+
+}
+
+
+.cover-img-box {
+    position: relative;
+    border: 2px solid black;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.white_sideline {
+    position: absolute;
+    background-color: white;
+    width: 260px;
+    height: 260px;
+    z-index: 4;
+
+}
+.cover_outline {
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 4;
+    left: 8px;
+    top: 10px;
+
+}
+
+.cover_sideline {
+    position: absolute;
+    
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 3;
+
+}
+
+.cover_img {
+    width : 250px;
+    height : 250px;
+    position: relative;
+    z-index: 4;
+}
+
+.music_info {
+    margin-left: 20px;
+    color: white;
+    
+
+}
+
+.artist_name {
+
+}
+
+.music_title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+
+}
