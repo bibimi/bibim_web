@@ -118,6 +118,27 @@ section {
     align-items: center;
 }
 
+.btn-play_circle {
+    display: absolute;
+    border-radius: 70%;
+    z-index: 5;
+    border: 5px solid white;
+    color: white;
+    background:none;
+    width: 90px;
+    height: 90px;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.btn-play_circle svg {
+    display: block;
+    padding-left: 8px;
+}
+
 
 .white_sideline {
     position: absolute;
@@ -153,7 +174,7 @@ section {
 .cover_img {
     width : 250px;
     height : 250px;
-    position: relative;
+    position: absolute;
     z-index: 4;
 }
 
