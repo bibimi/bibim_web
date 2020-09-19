@@ -7,7 +7,10 @@
 
 a {
     text-decoration: none;
+    color: #FFF;
 }
+a:link {color: white}
+a:visited {color: white}
 
 .body__container {
     
@@ -138,6 +141,9 @@ section {
     display: block;
     padding-left: 8px;
 }
+
+a:link {color: white}
+a:visited {color: white}
 
 
 .white_sideline {
